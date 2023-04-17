@@ -39,7 +39,7 @@ class UtilitiesInCategories(Scene):
         self.incompatible_utilities["B2"] = ["D1", "D2"]
         self.incompatible_utilities["C3"] = ["D2"]
 
-        self.render_title('Simulating the generation of test cases without external demands', self.describe_incompatibilities())
+        self.render_title('Simulating the generation of test cases with external demands', self.describe_incompatibilities())
         self.wait()
         self.simulate_process()
 
